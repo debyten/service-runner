@@ -38,7 +38,7 @@ type RunFn func(ctx context.Context)
 
 // Runner is a simple helper to run a microservice.
 //
-// Usually the built services exposes a set of HTTP api endpoints.
+// Usually the built services expose a set of HTTP api endpoints.
 //
 //	Usage:
 //	logger := log.NewJSONLogger(os.Stdout)
